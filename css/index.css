@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu_top_header {
+    display: table;
+    margin: 0 auto;
+}
+
+.mth {
+    position: relative;
+    display: inline-flex;
+}
+
+.mth .mth_btn {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.mth .mth_content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.mth .mth_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.mth .mth_content a:hover {
+    background-color: #f1f1f1;
+}
+
+.mth:hover .mth_content {
+    display: block;
+}
+
+.mth:hover .mth_btn {
+    background-color: #0cc4f1;
+}
+
+.bottom_header {
+    background-color: #2DBEB3;
+}
+
+.bth {
+    display: table;
+    margin: 0 auto;
+}
+
+
+/* Danh muc */
+
+.danh_muc {
+    position: relative;
+    display: inline-block;
+}
+
+.danh_muc .danh_muc_btn {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #F9F908;
+}
+
+.danh_muc .danh_muc_content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.danh_muc .danh_muc_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.danh_muc .danh_muc_content a:hover {
+    background-color: #f1f1f1;
+}
+
+.danh_muc:hover .danh_muc_content {
+    display: block;
+}
+
+.danh_muc:hover .danh_muc_btn {
+    background-color: #0cc4f1;
+}
+
+
+/* .bth {
+    display: flex;
+    flex-direction: row;
+} */
+
+
+/* Gio hang - In ngay */
+
+.gio_hang_btn {
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    background-color: #23403E;
+    font-size: 16px;
+}
+
+.gio_hang_btn img {
+    background-color: white;
+}
+
+.gio_hang_btn:hover {
+    background-color: red;
+}
+
+.in_ngay_btn {
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    background-color: #F1456A;
+    font-size: 16px;
+}
+
+.in_ngay_btn img {
+    background-color: white;
+}
+
+.in_ngay_btn:hover {
+    background-color: red;
+}
+
+.search_bottom_header {
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.tim_kiem_btn {
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    color: black;
+    background-color: #F9F908;
+    font-size: 16px;
+}
+
+.boy_main_img {
+    width: 100%;
+    height: 400px;
+}
+
+
+/* product */
+
+.top_product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.product_img {
+    width: 300px;
+    height: 200px;
+}
+
+.product_name {
+    text-align: center;
+}
+
+.bottom_product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.product_title {
+    margin-left: 70px;
+}
+
+.product:hover {
+    background-color: #8B9F9C;
+    color: red;
+}
+
+.hr {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+/* Design */
+
+.top_design {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.bottom_design {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.description {
+    background-color: #2DBEB3;
+}
+
+.d {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+/* Footer */
+
+.top_footer {
+    text-align: center;
+}
+
+.search_btn_footer {
+    border-radius: 20px;
+    background-color: yellow;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.search_btn_footer:hover {
+    background-color: red;
+}
+
+.email_footer {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #282929;
+}
+
+.bottom_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.font_white {
+    color: white;
+    font-size: 20px;
+}
+
+.p1 {
+    font-size: 18px;
+    color: #586262;
+}
+
+.p1:hover {
+    color: white;
+}
+
+
+/* social img */
+
+.logo_social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.van_chuyen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topcv {
+    text-align: center;
+}
+
+@media(max-width: 767px) {}
+
+@media(min-width: 768px) {}
+
+@media(min-width: 768px) and (max-width: 1023px) {}
+
+.footer_img_hover:hover {
+    background-color: #35DE20;
+    cursor: pointer;
+}
